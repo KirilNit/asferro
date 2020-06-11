@@ -3,9 +3,10 @@ from selenium import webdriver
 from elasticsearch import Elasticsearch
 
 
+
+
 url = "http://www.openweathermap.org/data/2.5/weather"
-#London,uk
-querystring = {"q":"London,uk","appid":"b6907d289e10d714a6e88b30761fae22"}
+querystring = {"q1":"London,uk","appid":"b6907d289e10d714a6e88b30761fae22"}
 
 headers = {
     'Content-Type': "application/json",
